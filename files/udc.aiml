@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+    <pattern>START</pattern>
+    <template>
+        Welcome to Career Picker Bot! To begin let's get to know by asking a series of questions. Do you prefer working with Hardware or Software?
+        <button>
+            <text>Hardware</text>
+            <postback>HARDWARE</postback>
+        </button>
+        <button>
+            <text>Software</text>
+            <postback>SOFTWARE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>HARDWARE</pattern>
+    <template> 
+    Great! Now do you prefer working with people?
+    <button>
+            <text>Yes</text>
+            <postback>IT SPECIALIST</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>CODING QUESTION</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>SOFTWARE</pattern>
+    <template> 
+    Great! Do you like scheudling and organizing projects, or do you like incorporating your artist abilities?
+    <button>
+            <text>Scheduling and Organizing</text>
+            <postback>PROJECT MANAGER</postback>
+        </button>
+        <button>
+            <text>Artistic Abilities</text>
+            <postback>UXUI DESIGNER</postback>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>CODING QUESTION</pattern>
+    <template> 
+    Fantastic! Do you like to code, or do you prefer more hands on with hardware?
+    <button>
+            <text>Code</text>
+            <postback>FIRMWARE ENGINEER</postback>
+        </button>
+        <button>
+            <text>Hands on</text>
+            <postback>NETWORK ENGINEER</postback>
+        </button>
+    </template>
+</category>
+
+</aiml>
