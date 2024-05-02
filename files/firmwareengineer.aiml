@@ -4,7 +4,13 @@
 <category>
     <pattern>FIRMWARE ENGINEER</pattern>
     <template> 
-    It sounds like you'd really enjoy being a Firmware Engineer! If you're not happy with your result, please click the START button below to try again.
+It sounds like you'd really enjoy being a Firmware Engineer! <br></br><br></br>
+            If you'd like to learn more about the Firmware Engineer role, please visit this
+            <link>
+                <text>link.</text>
+                <url>https://www.indeed.com/career-advice/finding-a-job/how-to-become-firmware-engineer</url>
+            </link><br></br>
+            If you're not happy with your result, please click the START button below to try again.<br></br><br></br>
     <button>
             <text>START</text>
             <postback>START</postback>

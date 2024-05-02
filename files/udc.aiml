@@ -5,13 +5,14 @@
     <pattern>START</pattern>
     <template>
         Welcome to Career Picker Bot! To begin let's get to know you by asking a series of questions. First, are you pursuing a degree in Computer Science?
-        <button>
-            <text>No</text>
-            <postback>DIFF DEGREE</postback>
-        </button>
+
         <button>
             <text>Yes</text>
             <postback>COMPUTER SCIENCE</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>DIFF DEGREE</postback>
         </button>
     </template>
 </category>
@@ -31,10 +32,6 @@
     <pattern>COMPUTER SCIENCE</pattern>
     <template>
         Awesome! Do you prefer working with Hardware or Software?
-        <button>
-            <text></text>
-            <postback>HARDWARE</postback>
-        </button>
         <button>
             <text>Hardware</text>
             <postback>HARDWARE</postback>
