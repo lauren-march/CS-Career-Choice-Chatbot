@@ -4,7 +4,37 @@
 <category>
     <pattern>START</pattern>
     <template>
-        Welcome to Career Picker Bot! To begin let's get to know by asking a series of questions. Do you prefer working with Hardware or Software?
+        Welcome to Career Picker Bot! To begin let's get to know you by asking a series of questions. First, are you pursing a degree in Computer Science?
+        <button>
+            <text>No</text>
+            <postback>DIFF DEGREE</postback>
+        </button>
+        <button>
+            <text>Yes</text>
+            <postback>COMPUTER SCIENCE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>DIFF DEGREE</pattern>
+    <template>
+        Please reach out to your career adivisor on different degree/career options, or click start below to start over. 
+        <button>
+            <text>START</text>
+            <postback>START</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>COMPUTER SCIENCE</pattern>
+    <template>
+        Awesome! Do you prefer working with Hardware or Software?
+        <button>
+            <text></text>
+            <postback>HARDWARE</postback>
+        </button>
         <button>
             <text>Hardware</text>
             <postback>HARDWARE</postback>
