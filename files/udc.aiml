@@ -4,7 +4,7 @@
 <category>
     <pattern>START</pattern>
     <template>
-        Welcome to Career Picker Bot! To begin let's get to know you by asking a series of questions. First, are you pursing a degree in Computer Science?
+        Welcome to Career Picker Bot! To begin let's get to know you by asking a series of questions. First, are you pursuing a degree in Computer Science?
         <button>
             <text>No</text>
             <postback>DIFF DEGREE</postback>
